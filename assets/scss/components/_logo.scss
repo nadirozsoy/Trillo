@@ -1,0 +1,10 @@
+.logo {
+  margin-left: 2rem;
+  align-self: stretch;
+  cursor: pointer;
+  transition: $transition-1;
+
+  &:hover {
+    background-color: $color-grey-light-2;
+  }
+}
