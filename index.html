@@ -43,12 +43,59 @@
                 </div>
             </nav>
         </header>
-        <div class="content">
-            <nav class="sidebar">
-                Navigation
+        <div class="content d-flex">
+            <nav class="sidebar d-flex">
+                <ul class="side-nav">
+                    <li class="side-nav__item side-nav__item--active">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="assets/img/sprite.svg#icon-home"></use>
+                            </svg>
+                            <span>Hotel</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="assets/img/sprite.svg#icon-aircraft-take-off"></use>
+                            </svg>
+                            <span>Flight</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="assets/img/sprite.svg#icon-key"></use>
+                            </svg>
+                            <span>Car rental</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="assets/img/sprite.svg#icon-map"></use>
+                            </svg>
+                            <span>Tours</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="legal">
+                    &copy; 2023 by Trillo. All rights reserved.
+                </div>
             </nav>
             <main class="hotel-view">
-                hotel-view
+                <div class="gallery d-flex">
+                    <figure class="gallery__item">
+                        <img src="assets/img/hotel-1.jpg" alt="photo of hotel-1" class="gallery__photo">
+                    </figure>
+                    <figure class="gallery__item">
+                        <img src="assets/img/hotel-2.jpg" alt="photo of hotel-2" class="gallery__photo">
+                    </figure>
+                    <figure class="gallery__item">
+                        <img src="assets/img/hotel-3.jpg" alt="photo of hotel-3" class="gallery__photo">
+                    </figure>
+                </div>
             </main>
         </div>
     </div>

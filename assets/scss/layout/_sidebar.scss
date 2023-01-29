@@ -1,4 +1,15 @@
 .sidebar {
   background-color: $color-grey-dark-1;
   flex: 0 0 18%;
+  // flex-wrap: wrap;
+  // align-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.legal {
+  font-size: 1.2rem;
+  text-align: center;
+  color: $color-grey-light-4;
+  padding: 2.5rem;
 }
