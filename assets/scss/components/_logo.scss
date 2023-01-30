@@ -1,5 +1,10 @@
 .logo {
   margin-left: 2rem;
-  align-self: stretch;
+  height: 4rem;
   cursor: pointer;
+  transition: transform 0.1s;
+
+  &:active {
+    transform: scale(1.06);
+  }
 }
