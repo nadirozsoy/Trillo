@@ -8,6 +8,16 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 1.5rem 3rem;
+
+    @media only screen and (max-width: $bp-sm-2) {
+      font-size: 2rem;
+      padding: 1rem 1.5rem;
+    }
+
+    @media only screen and (max-width: $bp-sm-3) {
+      font-size: 1.75rem;
+      padding: 1rem;
+    }
   }
 
   &__stars {
@@ -19,6 +29,11 @@
     width: 2rem;
     height: 2rem;
     fill: $color-primary;
+
+    @media only screen and (max-width: $bp-sm-2) {
+      width: 1.75rem;
+      height: 1.75rem;
+    }
   }
 
   &__location {
@@ -41,15 +56,31 @@
     align-items: center;
     padding: 0 0.5rem;
 
+    @media only screen and (max-width: $bp-sm-2) {
+      padding: 0 0.3rem;
+    }
+
+    @media only screen and (max-width: $bp-sm-3) {
+      text-align: center;
+    }
+
     &-average {
       font-size: 2.25rem;
       font-weight: 300;
       margin-bottom: -0.2rem;
+
+      @media only screen and (max-width: $bp-sm-2) {
+        font-size: 1.8rem;
+      }
     }
 
     &-count {
       font-size: 1rem;
       text-transform: uppercase;
+
+      @media only screen and (max-width: $bp-sm-2) {
+        font-size: 0.9rem;
+      }
     }
   }
 }

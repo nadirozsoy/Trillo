@@ -4,6 +4,14 @@
   border-bottom: $line-1;
   font-size: 1.4rem;
   font-weight: 600;
+
+  @media only screen and (max-width: $bp-md-2) {
+    padding: 2rem;
+  }
+
+  @media only screen and (max-width: $bp-sm-1) {
+    flex-direction: column;
+  }
 }
 
 .desc {
@@ -13,6 +21,16 @@
   box-shadow: $shadow-2;
   padding: 3rem;
   border-radius: $radius-1;
+
+  @media only screen and (max-width: $bp-md-2) {
+    padding: 2rem;
+    margin-right: 3rem;
+  }
+
+  @media only screen and (max-width: $bp-sm-1) {
+    margin-right: 0;
+    margin-bottom: 3rem;
+  }
 }
 
 .paragraph {
@@ -29,9 +47,19 @@
   border-bottom: $line-1;
   flex-wrap: wrap;
 
+  @media only screen and (max-width: $bp-md-2) {
+    margin: 2rem 0;
+    padding: 2rem 0;
+  }
+
   &__item {
     flex: 0 0 50%; //width: 50%;
     margin-bottom: 0.7rem;
+
+    @media only screen and (max-width: $bp-sm-3) {
+      flex: 0 0 100%;
+      text-align: center;
+    }
 
     &::before {
       content: '';
@@ -91,8 +119,16 @@
     position: relative;
     overflow: hidden;
 
+    @media only screen and (max-width: $bp-md-2) {
+      padding: 2rem;
+    }
+
     &:last-of-type {
       margin: 3.5rem 0;
+
+      @media only screen and (max-width: $bp-md-2) {
+        margin: 3rem 0;
+      }
     }
 
     &__text {

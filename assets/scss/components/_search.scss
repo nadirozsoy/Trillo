@@ -3,6 +3,12 @@
   justify-content: center;
   align-items: center;
 
+  @media only screen and (max-width: $bp-sm-3) {
+    order: 1;
+    flex: 0 0 100%;
+    background-color: $color-grey-light-2;
+  }
+
   &__input {
     font-family: inherit;
     font-size: inherit;

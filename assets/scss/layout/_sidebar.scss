@@ -5,6 +5,9 @@
   // align-content: space-between;
   flex-direction: column;
   justify-content: space-between;
+
+  @media only screen and (max-width: $bp-md-2) {
+  }
 }
 
 .legal {
@@ -12,4 +15,8 @@
   text-align: center;
   color: $color-grey-light-4;
   padding: 2.5rem;
+
+  @media only screen and (max-width: $bp-md-2) {
+    display: none;
+  }
 }

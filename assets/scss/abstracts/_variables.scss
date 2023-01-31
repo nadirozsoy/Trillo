@@ -26,3 +26,13 @@ $shadow-2: 0 1rem 4rem rgba($color-black, 0.6);
 $radius-1: 3px;
 
 $line-1: $color-grey-light-2 solid;
+
+// MEDIA QUERY
+
+$bp-lg-1: 75em; // 1200/16 = 75
+$bp-lg-2: 68.75em; // 1100/16 = 68.75
+$bp-md-1: 62.5em; // 1000/16 = 62.5
+$bp-md-2: 56.25em; // 900/16 = 56.25
+$bp-sm-1: 40.625em; // 650/16 = 40.625
+$bp-sm-2: 34.375em; // 550/16 = 34.375
+$bp-sm-3: 28.125em; // 450/16 = 28.125

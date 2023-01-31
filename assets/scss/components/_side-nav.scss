@@ -3,11 +3,24 @@
   font-size: 1.4rem;
   margin-top: 3.5rem;
 
+  @media only screen and (max-width: $bp-md-2) {
+    margin-top: 0;
+    display: flex;
+  }
+
   &__item {
     position: relative;
 
+    @media only screen and (max-width: $bp-md-2) {
+      flex: 0 0 25%;
+    }
+
     &:not(:last-child) {
       margin-bottom: 0.5rem;
+
+      @media only screen and (max-width: $bp-md-2) {
+        margin-bottom: 0;
+      }
     }
 
     &::before {
@@ -30,6 +43,13 @@
       width: 100%;
     }
 
+    &--active::before {
+      @media only screen and (max-width: $bp-md-2) {
+        width: 3px;
+        transform: scale(0);
+      }
+    }
+
     &:active::before {
       background-color: $color-primary-light;
     }
@@ -48,6 +68,17 @@
       align-items: center;
       position: relative;
       z-index: 2;
+
+      @media only screen and (max-width: $bp-md-2) {
+        display: flex;
+        justify-content: center;
+        padding: 2.5rem;
+      }
+
+      @media only screen and (max-width: $bp-sm-2) {
+        flex-direction: column;
+        padding: 1.5rem 0.5rem;
+      }
     }
   }
 
@@ -56,5 +87,12 @@
     height: 2rem;
     fill: currentColor;
     margin-right: 2rem;
+
+    @media only screen and (max-width: $bp-sm-2) {
+      margin-right: 0;
+      width: 1.5rem;
+      height: 1.5rem;
+      margin-bottom: 0.7rem;
+    }
   }
 }
