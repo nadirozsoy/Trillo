@@ -37,7 +37,7 @@
 
 </div>
 
-![preview-1](screenshots/Preview-1.png)
+![preview-1](screenshots/preview-1.png)
 
 <div align="Center">
 
@@ -46,7 +46,7 @@
 
 </div>
 
-![preview-2](screenshots/Preview-2.png)
+![preview-2](screenshots/preview-2.png)
 
 <div align="Center">
 
@@ -55,4 +55,4 @@
 
 </div>
 
-![preview-3](screenshots/Preview-3.png)
+![preview-3](screenshots/preview-3.png)
