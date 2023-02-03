@@ -1,4 +1,5 @@
 .detail {
+  display: flex;
   padding: 4.5rem;
   background-color: $color-grey-light-1;
   border-bottom: $line-1;
@@ -40,6 +41,7 @@
 }
 
 .list {
+  display: flex;
   list-style: none;
   margin: 3rem 0;
   padding: 3rem 0;
@@ -92,11 +94,13 @@
 }
 
 .recommend {
+  display: flex;
   font-size: 1.3rem;
   color: $color-grey-dark-1;
   align-items: center;
 
   &__friends {
+    display: flex;
     margin-left: auto;
   }
 
@@ -143,6 +147,7 @@
     }
 
     &__user {
+      display: flex;
       align-items: center;
       &-photo {
         width: 4.5rem;

@@ -1,4 +1,6 @@
 .content {
+  display: flex;
+
   @media only screen and (max-width: $bp-md-2) {
     flex-direction: column;
   }
