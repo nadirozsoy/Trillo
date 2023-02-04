@@ -1,14 +1,13 @@
 .book-now {
-
   border: none;
   font-size: 1.5rem;
   font-weight: 300;
   text-transform: uppercase;
   border-radius: 100px;
   background-image: linear-gradient(
-                  to right,
-                  $color-primary-light,
-                  $color-primary-dark
+    to right,
+    $color-primary-light,
+    $color-primary-dark
   );
   overflow: hidden;
   color: #fff;
@@ -19,9 +18,9 @@
     transform: translateY(-3px);
     box-shadow: $shadow-1;
     background-image: linear-gradient(
-                    to left,
-                    $color-primary-light,
-                    $color-primary-dark
+      to left,
+      $color-primary-light,
+      $color-primary-dark
     );
 
     &::after {
@@ -78,5 +77,4 @@
     outline: none;
     animation: pulsate 1s infinite;
   }
-
 }
